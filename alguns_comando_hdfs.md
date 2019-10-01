@@ -13,3 +13,9 @@
 ### Colocar arquivo local no hdfs
 - hdfs dfs -put /path_arquivo_local /path_name
 
+### Retirar/copiar um arquivo do a partir do hdfs para um diretório local
+- hdfs dfs -get /path_name /path_arquivo_local
+
+### Mostrar conteúdo de um arquivo no hdfs
+- hdfs dfs -cat /path_name/nome_arquivo
+
